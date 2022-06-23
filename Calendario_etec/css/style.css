@@ -1,0 +1,39 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+body{
+    margin: auto;
+    width: 50%;
+    height: 30%;
+
+}
+.container{
+    font-family: noto-sans, sans-serif;
+    margin-top: 20px;
+}
+th{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
+    height: 30px;
+}
+td{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+}
+.today{
+    background: tomato;
+}
+
+TH:nth-of-type(7), td:nth-of-type(7)
+{
+    color: rgb(59, 144, 194);
+}
+TH:nth-of-type(1), td:nth-of-type(1)
+{
+    color: crimson;
+}
